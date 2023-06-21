@@ -11,7 +11,5 @@ export class RandomCardComponent  implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {
-    console.log(this.data);
-  }
+  ngOnInit() { }
 }

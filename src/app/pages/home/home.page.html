@@ -1,11 +1,11 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>home</ion-title>
+    <ion-title>Página principal</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [scrollY]="false">
-  <ion-searchbar placeholder="Search..." [(ngModel)]="filterTerm" animated="true"></ion-searchbar>
+  <ion-searchbar placeholder="Busca por ID o texto" [(ngModel)]="filterTerm" animated="true"></ion-searchbar>
 
   <cdk-virtual-scroll-viewport appendOnly itemSize="100" minBufferPx="200" maxBufferPx="400" class="example-viewport">
     <ion-list>

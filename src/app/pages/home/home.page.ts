@@ -27,12 +27,5 @@ export class HomePage implements OnInit {
       }
       this.array1084.push(obj);
     }
-
-    console.log(this.array1084[1]);
-    
-  }
-
-  applyFilter(data:any, filterValue: string) {
-    data.filter = filterValue.trim().toLowerCase();
   }
 }
